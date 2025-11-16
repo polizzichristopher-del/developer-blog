@@ -4,7 +4,7 @@ li {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     background-color: rgba(21, 153, 230, 1)
 }
 
@@ -15,8 +15,8 @@ li:hover{
 li a {
     text-decoration: none;
     color: black;
-    font-family: 'Jersey 10', sans-serif;
-    font-size: 25px;
+    font-family: 'Vend Sans', sans-serif;
+    font-size: 20px;
 }
 
 .menu {
