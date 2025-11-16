@@ -1,0 +1,15 @@
+h1 {
+  font-family: "Vend Sans", sans-serif;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.profileImage {
+  margin-left: 20px;
+}
+
+.profileImage img {
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
