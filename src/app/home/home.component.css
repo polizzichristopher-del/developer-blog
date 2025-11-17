@@ -7,8 +7,6 @@ p {
 }
 
 .blogImage {
-    margin-left: 20px;
-    margin-right: 20px;
     float: left;
     clip-path: circle(40%);
     shape-outside: circle(45%);
