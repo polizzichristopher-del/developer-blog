@@ -1,12 +1,10 @@
 h1 {
   font-family: "Vend Sans", sans-serif;
 }
-.content {
-  display: flex;
-  justify-content: space-between;
-}
+
 .profileImage {
   margin-left: 20px;
+  float: right;
 }
 
 .profileImage img {
