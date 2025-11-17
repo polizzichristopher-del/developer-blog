@@ -1,24 +1,25 @@
-li {
-    display: inline;
+.menu div {
     margin-right: 15px;
     cursor: pointer;
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
-    background-color: rgba(21, 153, 230, 1)
+    background-color: rgba(21, 153, 230, 1);
+    text-align: center;
 }
 
-li:hover{
+.menu div:hover{
     background-color: lightgray;
 }
 
-li a {
+.menu div a {
     text-decoration: none;
     color: black;
     font-family: 'Vend Sans', sans-serif;
-    font-size: 20px;
+    font-size: auto;
 }
 
 .menu {
-    text-align: right;
+    display: flex;
+    justify-content: right;
 }
