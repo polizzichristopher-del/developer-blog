@@ -1,18 +1,35 @@
 h2 {
-    font-family: 'Vend Sans', sans-serif;
+  font-family: "Vend Sans", sans-serif;
 }
 
 p {
-    font-family: 'Vend Sans', sans-serif;
+  font-family: "Vend Sans", sans-serif;
 }
 
-.blogImage {
-    float: left;
-    clip-path: circle(40%);
-    shape-outside: circle(45%);
+.blogImageLeft {
+  float: left;
+  text-align: center;
+  padding-right: 20px;
 }
 
-.blogImage img {
-    border-radius: 50%;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+.blogImageLeft img {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blogImageLeft a {
+  font-size: xx-small;
+}
+
+.blogImageRight {
+  float: right;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.blogImageRight img {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blogImageRight a {
+  font-size: xx-small;
 }
